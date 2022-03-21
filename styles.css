@@ -12,7 +12,7 @@ header {
     align-items: center;
     background-color: #1F2937;
     padding: 0 250px 80px;
-    
+    flex-shrink: 1;
 
 }
 
@@ -22,6 +22,7 @@ header {
     width: 100%;
     justify-content: space-between; 
     margin-bottom: 50px;
+    
 }
 
 .sub-nav {
@@ -30,6 +31,7 @@ header {
     width: 100%;
     justify-content: space-between; 
     gap: 100px;
+    flex-shrink: 0;
 }
 
 ul {
@@ -74,19 +76,60 @@ a {
     border: none;
     border-radius: 5px;
     padding: 8px 25px;
+    font-weight: bold;
 }
 
 .image {
-    background-color: grey;
+    background-color: rgb(143, 144, 151);
     display: flex;
     justify-content: center;
     align-items: center;  
     width: 40%;
     flex-basis: auto;  
+    flex-shrink: 0;
 }
 
 .text-header {
     flex-basis: auto;
-    width: 35%;
+    width: 32%;
 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 100px;
+    gap: 50px;
+}
+
+.box {
+    border: 5px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.container-info {
+    display: flex;
+    gap: 80px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    
+}
+
+.random {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info p {
+    text-align: center;
+    color: #616060;
 }
