@@ -69,13 +69,14 @@ a {
     text-decoration: none;
 }
 
-.button-header {
+.button-header,
+.button-sign {
     background-color: #3882F6;
     color: #F9FAF8;
     border: none;
     border-radius: 5px;
-    padding: 8px 25px;
     font-weight: bold;
+    padding: 8px 28px;
 }
 
 .image {
@@ -153,4 +154,32 @@ a {
     align-self: flex-end;
     font-weight: 1000;
     font-size: 20px;
+}
+
+.sign {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 350px;
+    padding: 50px 0;
+    border-radius: 10px;
+   
+    
+}
+
+.sign p {
+    margin: 5px 0;
+    color: #E5E7EB;
+    
+}
+
+#action {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.button-sign {
+    border: 2px solid #F9FAF8;
+    align-self: center;   
 }
