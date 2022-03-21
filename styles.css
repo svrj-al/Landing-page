@@ -183,3 +183,13 @@ a {
     border: 2px solid #F9FAF8;
     align-self: center;   
 }
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    font-size: 18px;
+}
