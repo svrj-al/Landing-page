@@ -13,7 +13,6 @@ header {
     background-color: #1F2937;
     padding: 0 250px 80px;
     flex-shrink: 1;
-
 }
 
 .main-nav {
@@ -57,7 +56,7 @@ h1 {
 
 .p-one {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 1000;
     margin: 18px 0px;  
 }
 
@@ -125,11 +124,33 @@ a {
 
 .random {
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 1000;
     color: #1F2937;
 }
 
 .info p {
     text-align: center;
     color: #616060;
+}
+
+.container-two {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 540px 100px;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#quote-two {
+    align-self: flex-end;
+    font-weight: 1000;
+    font-size: 20px;
 }
