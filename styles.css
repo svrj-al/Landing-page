@@ -21,12 +21,12 @@ header {
     align-items: center;
     width: 100%;
     justify-content: space-between; 
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .sub-nav {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     width: 100%;
     justify-content: space-between; 
     gap: 100px;
@@ -55,7 +55,8 @@ h1 {
 
 .p-one {
     font-size: 48px;
-    font-weight: 900;  
+    font-weight: 900;
+    margin: 18px 0px;  
 }
 
 .p-two,
@@ -77,12 +78,15 @@ a {
 
 .image {
     background-color: grey;
-    flex: 1 1 auto;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;  
+    width: 40%;
+    flex-basis: auto;  
 }
 
 .text-header {
-    flex: 1 1 0;
+    flex-basis: auto;
+    width: 35%;
+
 }
